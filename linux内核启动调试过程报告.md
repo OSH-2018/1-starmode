@@ -223,8 +223,8 @@
 
    使用list命令得到kernel_init函数内容
 
-   ```
-   static int __ref kernel_init(void *unused)
+   ```c
+   static int __ref kernel_init(void *unused)
    {
    	int ret;
 
